@@ -11,7 +11,6 @@ function productPage(){
     emailErrorEl = document.getElementById('emailError')
     usernameErrorEl = document.getElementById('usernameError')
 
-    console.log(emailEl, usernameEl)
 
     if(emailEl == ''){
         setTimeout(()=>{
@@ -35,6 +34,6 @@ function productPage(){
 
     emailEl = ''
     usernameEl = ''
-    console.log(emailEl, usernameEl)
+
 
 }
